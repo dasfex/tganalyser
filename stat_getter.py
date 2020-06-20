@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/bin/env python3
 
 import sys
 from lxml import etree
@@ -93,6 +93,6 @@ def analyze(files):
 
 if __name__ == '__main__':
     c, u, w = analyze([sys.argv[i] for i in range(1, len(sys.argv))])
-#    print(c)
-#    print(u)
+    print(c)
+    print(u)
     print(w)
