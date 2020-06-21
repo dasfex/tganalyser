@@ -8,5 +8,5 @@ Give this files as arguments to the following script.
 
 Run example:
 ```
-./stat_analyser.py messages.html messages{2..24}.html
+./stat_getter.py messages.html messages{2..24}.html
 ```
